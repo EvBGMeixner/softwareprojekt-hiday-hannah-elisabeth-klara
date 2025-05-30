@@ -12,5 +12,5 @@ public class HiDay extends SPIEL{
     //void setzeKamerafokus (unsereFigur){
     //}
 
-
+    //testtoken
 }
