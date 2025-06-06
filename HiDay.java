@@ -6,7 +6,7 @@ public class HiDay extends SPIEL{
 
     public HiDay(String _zustandName , String _gifPfad){
      zeigeKoordinatensystem(true);
-     figur = new FIGUR( String bildName );
+     figur = new FIGUR("farmer.png" );
      
     
     }
