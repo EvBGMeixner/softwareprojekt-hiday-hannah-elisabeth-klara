@@ -11,8 +11,8 @@ public class HiDay extends SPIEL{
     
     }
 
-    void setzeKamerafokus (FIGUR focus){
-        super.setzeKamerafokus( focus );
+    void setzeKamerafokus (FIGUR figur){
+        super.setzeKamerafokus( figur );
     }
 
     
