@@ -6,10 +6,11 @@ public class HiDay extends SPIEL{
     public HiDay(){
         super();
         zeigeKoordinatensystem(true);
+        figur=new HiDayFigur();
         
 
     }
-    void setzeKamerafokus (FIGUR figur){
+    void setzeKamerafokus (HiDayFigur figur){
         super.setzeKamerafokus( figur );
     }
 
