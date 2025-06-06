@@ -5,8 +5,9 @@ public class HiDay extends SPIEL{
     
 
     public HiDay(){
+        super();
      zeigeKoordinatensystem(true);
-     figur = new FIGUR("farmer.png" );
+     figur = new FIGUR("farmer.png");
      
     
     }
