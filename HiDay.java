@@ -4,13 +4,13 @@ public class HiDay extends SPIEL{
     
     
 
-    public HiDay(String _zustandeName,String _gifPfad){
+    public HiDay(String _zustandName,String _gifPfad){
      zeigeKoordinatensystem(true);
-     figur =new FIGUR(_zustandeName,
+    
     }
      
     //void setzeKamerafokus (unsereFigur){
     //}
 
-
+    //testtoken
 }
