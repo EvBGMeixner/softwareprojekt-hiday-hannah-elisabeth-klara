@@ -11,8 +11,8 @@ public class HiDay extends SPIEL{
     
     }
 
-    //void setzeKamerafokus (unsereFigur){
-    //}
+    void setzeKamerafokus (figur){
+    }
 
     
 }
