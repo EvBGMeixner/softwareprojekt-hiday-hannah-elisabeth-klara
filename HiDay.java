@@ -16,13 +16,6 @@ public class HiDay extends SPIEL{
 
     
 
-     
-
-
-
-    
-
-     
 
 
     }
