@@ -7,34 +7,12 @@ public class HiDay extends SPIEL{
         super();
 
         zeigeKoordinatensystem(true);
-        figur = new FIGUR("farmer.png");
+        figur = new HiDayFigur();
+        
 
     }
-
-    zeigeKoordinatensystem(true);
-    figur=new 
-    HiDayFigur();
-
-
-    zeigeKoordinatensystem(true);
-
-    //void setzeKamerafokus (unsereFigur){
-    //}
-
-    zeigeKoordinatensystem(true);
-   
-    HiDayFigur();
-   
-void setzeKamerafokus (HiDayFigur figur){
-super.setzeKamerafokus( figur );
+    void setzeKamerafokus (HiDayFigur figur){
+        super.setzeKamerafokus( figur );
+    }
 }
-
-void setzeKamerafokus (FIGUR figur){
-super.setzeKamerafokus( figur );
-}
-
-
-void setzeKamerafokus (HiDayFigur figur){
-super.setzeKamerafokus( figur );
-
 
