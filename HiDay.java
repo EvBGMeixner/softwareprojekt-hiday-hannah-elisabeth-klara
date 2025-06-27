@@ -7,41 +7,29 @@ public class HiDay extends SPIEL{
     public HiDay(){
         super();
 
-        
-        zeigeKoordinatensystem(true);
-
+        //zeigeKoordinatensystem(true);
         farmer=new HiDayFigur();
 
-
-        
         setzeKamerafokus (farmer);
-
 
         farmer.setzeMittelpunkt(0, -7.5);
         boden = new RECHTECK(1000,1);
         boden.setzeMittelpunkt(480,-10);
         boden.setzeFarbe("grün");
-        
 
-
-    
-
-     
+        setzeHintergrundgrafik("bauernhofhintergrund.jpg");
 
 
     }
     
-
-    
     
 
-    
     
     public void tasteReagieren(int taste){
         if(taste == TASTE.RAUF){
             farmer.springe(12);
         }
-        
+
     }
 
     public void bildAktualisierungReagieren(double s){
@@ -53,10 +41,8 @@ public class HiDay extends SPIEL{
         }
 
     }
-    
 
     // Figur hinzufügen
-    
    
 }
 
