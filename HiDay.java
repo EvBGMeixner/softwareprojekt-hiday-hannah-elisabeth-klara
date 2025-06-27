@@ -22,8 +22,8 @@ public class HiDay extends SPIEL{
         boden.setzeMittelpunkt(480,-10);
         boden.setzeFarbe("grün");
         
-
-
+        farmer.macheAktiv();
+        boden.machePassiv();
     
 
      
