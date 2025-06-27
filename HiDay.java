@@ -11,19 +11,14 @@ public class HiDay extends SPIEL{
 
         farmer=new HiDayFigur();
         farmer.setzeMittelpunkt(0, -8);
-        
-
-
-    
+        setzeKamerafokus (farmer);
 
      
 
 
     }
     
-    void setzeKamerafokus (HiDayFigur farmer){
-        super.setzeKamerafokus( farmer );
-    }
+
     
     
 
