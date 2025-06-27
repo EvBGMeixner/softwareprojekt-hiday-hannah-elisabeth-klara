@@ -2,6 +2,7 @@
 public class HiDay extends SPIEL{
 
     HiDayFigur farmer;
+    RECHTECK boden;
 
     public HiDay(){
         super();
@@ -10,7 +11,10 @@ public class HiDay extends SPIEL{
         zeigeKoordinatensystem(true);
 
         farmer=new HiDayFigur();
-        farmer.setzeMittelpunkt(0, -8);
+        farmer.setzeMittelpunkt(0, -7.5);
+        boden = new RECHTECK(1000,1);
+        boden.setzeMittelpunkt(480,-10);
+        boden.setzeFarbe("grün");
         
 
 
