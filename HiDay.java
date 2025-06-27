@@ -12,8 +12,10 @@ public class HiDay extends SPIEL{
 
         farmer=new HiDayFigur();
 
+
         
         setzeKamerafokus (farmer);
+
 
         farmer.setzeMittelpunkt(0, -7.5);
         boden = new RECHTECK(1000,1);
