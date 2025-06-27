@@ -6,10 +6,17 @@ public class HiDay extends SPIEL{
     public HiDay(){
         super();
 
+        
         zeigeKoordinatensystem(true);
 
         farmer=new HiDayFigur();
         farmer.setzeMittelpunkt(0, -8);
+
+
+
+    
+
+     
 
 
     }
@@ -17,6 +24,10 @@ public class HiDay extends SPIEL{
     void setzeKamerafokus (HiDayFigur farmer){
         super.setzeKamerafokus( farmer );
     }
+    
+    
+
+    
     
     public void tasteReagieren(int taste){
         if(taste == TASTE.RAUF){
@@ -32,6 +43,12 @@ public class HiDay extends SPIEL{
         if(istTasteGedrueckt(TASTE.LINKS)){
             farmer.verschiebenUm(-0.1, 0);
         }
+
     }
+    
+
+    // Figur hinzufügen
+    
+   
 }
 
