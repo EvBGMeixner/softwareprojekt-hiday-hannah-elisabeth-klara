@@ -6,19 +6,28 @@ public class HiDay extends SPIEL{
     public HiDay(){
         super();
 
-        zeigeKoordinatensystem(true); 
-        figur = new HiDayFigur();
-        figur.setzeMittelpunkt(0, -8);
         
+        zeigeKoordinatensystem(true);
+
+        farmer=new HiDayFigur();
+        farmer.setzeMittelpunkt(0, -8);
 
 
 
     
 
-    public void setzeKamerafokus (HiDayFigur figur){
-        super.setzeKamerafokus( figur );
+     
+
 
     }
+    
+    void setzeKamerafokus (HiDayFigur farmer){
+        super.setzeKamerafokus( farmer );
+    }
+    
+    
+
+    
     
     public void tasteReagieren(int taste){
         if(taste == TASTE.RAUF){
