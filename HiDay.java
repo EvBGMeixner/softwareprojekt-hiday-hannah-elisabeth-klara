@@ -10,7 +10,7 @@ public class HiDay extends SPIEL{
 
         farmer=new HiDayFigur();
         farmer.setzeMittelpunkt(0, -8);
-
+        
 
     }
     
