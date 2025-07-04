@@ -7,8 +7,10 @@ public class HiDay extends SPIEL{
     public HiDay(){
         super();
 
+        
         zeigeKoordinatensystem(true);
         farmer=new HiDayFigur();
+
 
         farmer.setzeMittelpunkt(0, -7.5);
         boden = new RECHTECK(1000,1);
@@ -16,10 +18,21 @@ public class HiDay extends SPIEL{
         boden.setzeFarbe("grün");
 
 
-
-
-
+        
         setzeKamerafokus (farmer);
+
+
+        
+        farmer.macheAktiv();
+        boden.machePassiv();
+    
+
+     
+
+
+
+
+
 
         
 
@@ -31,6 +44,7 @@ public class HiDay extends SPIEL{
 
 
     
+
     
     public void tasteReagieren(int taste){
         if(taste == TASTE.RAUF){
@@ -47,7 +61,17 @@ public class HiDay extends SPIEL{
             farmer.verschiebenUm(-0.1, 0);
         }
 
+
     }
     
-  
+
+    // Figur hinzufügen
+    
+   
 }
+
+
+    
+    
+  
+
