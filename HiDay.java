@@ -11,7 +11,7 @@ public class HiDay extends SPIEL{
         farmer=new HiDayFigur();
 
         setzeKamerafokus (farmer);
-
+       
 
         farmer.setzeMittelpunkt(0, -7.5);
         boden = new RECHTECK(1000,1);
@@ -19,30 +19,23 @@ public class HiDay extends SPIEL{
         boden.setzeFarbe("grün");
 
         setzeHintergrundgrafik("bauernhofhintergrund.png");
-        
+
         farmer.macheAktiv();
         boden.machePassiv();
 
         hintergrundbild.machePassiv();
 
-
        
-
        
         
-        
-
-
 
 
         
-
+    
 
     }
 
-   
 
-    
     public void tasteReagieren(int taste){
         if(taste == TASTE.RAUF){
             farmer.springe(12);
@@ -58,12 +51,6 @@ public class HiDay extends SPIEL{
             farmer.verschiebenUm(-0.1, 0);
         }
 
-        
     }
-    
-
-
 }
-
     
-  
