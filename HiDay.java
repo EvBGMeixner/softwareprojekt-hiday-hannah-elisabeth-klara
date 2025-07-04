@@ -20,11 +20,13 @@ public class HiDay extends SPIEL{
         boden.setzeFarbe("grün");
 
 
-        setzeHintergrundgrafik("bauernhofhintergrund.jpg");
+        setzeHintergrundgrafik("bauernhofhintergrund.png");
 
         
         farmer.macheAktiv();
         boden.machePassiv();
+        
+        hintergrundbild.machePassiv();
     
 
 
