@@ -35,7 +35,7 @@ implements TastenReagierbar, Ticker, MausKlickReagierbar, MausRadReagierbar, Bil
      */
     private int zaehler;
     
-    private Figur hintergrundbild;
+    public Figur hintergrundbild;
     
     
     // =====   K o n s t r u k t o r e n   =========================================================
