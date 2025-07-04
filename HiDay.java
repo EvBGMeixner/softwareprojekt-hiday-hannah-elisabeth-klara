@@ -3,15 +3,22 @@ public class HiDay extends SPIEL{
 
     HiDayFigur farmer;
     RECHTECK boden;
+    String punkteanzeige;
+    int x;
+    String lebensanzeige;
+    int y;
 
     public HiDay(){
         super();
 
         zeigeKoordinatensystem(true);
         farmer=new HiDayFigur();
+        x = 0;
+        y = 3;
 
         setzeKamerafokus (farmer);
-        
+        punkteanzeige = new String("Punkte:int x");
+        lebensanzeige = new String("Leben:int y");
 
 
         farmer.setzeMittelpunkt(0, -7.5);
@@ -27,6 +34,8 @@ public class HiDay extends SPIEL{
         boden.machePassiv();
         
         hintergrundbild.machePassiv();
+        lebensanzeige = y;
+        punkteanzeige = x;
     
 
 
@@ -52,6 +61,14 @@ public class HiDay extends SPIEL{
             farmer.verschiebenUm(-0.1, 0);
         }
 
+    }
+    public void anzeigeErstellen(){
+        lebensanzeige.setzeMittelpunkt(5,7);
+        punkteanzeige.setzeMittelpunkt(5,6);
+        lebensanzeige.setzeFarbe("rot");
+        punkteanzeige.setzeFarbe("blau");
+        
+        
     }
 
     // Figur hinzufügen
